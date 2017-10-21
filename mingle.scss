@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+#mingling {
+  font-size: 20px;
+  position: relative;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  main {
+    display: flex;
+    background-color: pink;
+    width: 85vw;
+    height: 80vh;
+  }
+
+  nav {
+    span {
+      position: absolute;
+      font-size: inherit;
+    }
+
+    a {
+      color: #000;
+      text-decoration: none;
+      padding-bottom: 1px;
+      border-bottom: 2px solid #000;
+    }
+
+    .east {
+      // transform: rotate(90deg);
+    }
+
+    .west {
+      // transform: rotate(-90deg);
+    }
+  }
+}
+
+.blanc {
+  color: #fff;
+}

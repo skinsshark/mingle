@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box; }
+
+#mingling {
+  font-size: 20px;
+  position: relative;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #mingling main {
+    display: flex;
+    background-color: pink;
+    width: 85vw;
+    height: 80vh; }
+  #mingling nav span {
+    position: absolute;
+    font-size: inherit; }
+  #mingling nav a {
+    color: #000;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 2px solid #000; }
+
+.blanc {
+  color: #fff; }
