@@ -1,6 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
-  font-size: 16px; }
+  font-size: 20px; }
 
 h1 {
   margin: 0;
@@ -11,10 +11,19 @@ h1 {
   font-size: 8vw;
   color: slateblue; }
 
-@media only screen and (max-width: 952px) {
+@media only screen and (max-width: 767px) {
   h1 {
-    font-size: 13vw;
+    font-size: 12vw;
     width: 100%; } }
 main {
   align-items: center;
-  padding-left: 5vw; }
+  flex-wrap: wrap;
+  padding: 0 5vw; }
+  main p {
+    letter-spacing: 1px;
+    text-align: justify;
+    width: 40%; }
+
+@media only screen and (max-width: 767px) {
+  main p {
+    width: 100%; } }

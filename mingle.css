@@ -2,7 +2,6 @@
   box-sizing: border-box; }
 
 #mingling {
-  font-size: 20px;
   position: relative;
   margin: 0;
   width: 100vw;
@@ -16,13 +15,16 @@
     width: 85vw;
     height: 80vh; }
   #mingling nav span {
-    position: absolute;
-    font-size: inherit; }
+    position: absolute; }
   #mingling nav a {
     color: #000;
     text-decoration: none;
     padding-bottom: 1px;
     border-bottom: 2px solid #000; }
+  #mingling nav .east {
+    transform: rotate(90deg); }
+  #mingling nav .west {
+    transform: rotate(-90deg); }
 
 .blanc {
   color: #fff; }

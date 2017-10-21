@@ -3,7 +3,6 @@
 }
 
 #mingling {
-  font-size: 20px;
   position: relative;
   margin: 0;
   width: 100vw;
@@ -22,7 +21,6 @@
   nav {
     span {
       position: absolute;
-      font-size: inherit;
     }
 
     a {
@@ -33,11 +31,11 @@
     }
 
     .east {
-      // transform: rotate(90deg);
+      transform: rotate(90deg);
     }
 
     .west {
-      // transform: rotate(-90deg);
+      transform: rotate(-90deg);
     }
   }
 }
